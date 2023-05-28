@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Stylish&display=swap');
+  /* font-family: 'Poppins', sans-serif;
+font-family: 'Stylish', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+}
+.navbar_custom{
+    background-image: linear-gradient(to left,rgba(238,56,65,.1),rgba(255,255,255,.1));
+}
+.navbar_logo{
+    width: 80px;
+    object-fit: contain;
+}
+.navbar_menu{
+    margin-left: auto;
+}
+.navbar_custom_text{
+    font-size: 1.5rem;
+    color: #000;
+    margin-left: 1em;
+}
+.custom_btn{
+    background-color: rgb(216, 27, 84,0.4);
+    transition: all .5s linear;
+}
+.custom_btn:hover{
+    background-color: rgb(235, 64, 92);
+}
+/* carousel section */
+.caption_btn{
+    background: transparent;
+}
+.carousel_custom_image{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.carousel_custom_caption_title{
+    margin-bottom: 50px;
+    color: #000;
+    text-shadow: -2px 0 rgb(238, 56, 65,0.2),0 2px rgb(216, 27, 84,0.4),2px 0 rgb(216, 27, 84,0.4),0 -2px rgb(216, 27, 84,0.4);
+}
+.carousel_custom_caption_para{
+    margin-top: -50px;
+    font-size: 1.4rem;
+}
+.custom_package_image{
+    height: 100px;
+    
+}
+.card-img-top{
+    height: 300px;
+}
+.social_media a{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: rgb(233,68,95);
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-google{
+    color: rgb(138,48,240);
+}
+.fa-twitter{
+    color: #00aced;
+}
+footer{
+    padding: 2rem;
+}
+.hr.line{
+    width: 75%;
+    margin: 1rem auto;
+}
+footer p{
+    font-size: 1.1rem;
+}
+hr.line-100{
+    width: 100%;
+}
+.card_img{
+    height: 400px;
+}
+
+/* media queries */
+@media screen and (max-width:992px) {
+    .social_media a{
+        font-size: 2rem;
+        padding: 1em 1em 2em;
+    }
+}
+@media screen and (max-width:800px){
+    html{
+        font-size: .9rem;
+    }
+    .carousel_custom_image{
+        height: 300px;
+    }
+    .carousel_custom_caption_title{
+        font-size: 2rem;
+    }
+    .carousel_custom_caption_para{
+        font-size: 1rem;
+    }
+    .custom_btn{
+        padding: .3em;
+    }
+}
